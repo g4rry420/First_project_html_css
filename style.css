@@ -1,0 +1,300 @@
+/* Boxing_sizing:- The box-sizing property defines how the width and height of an element are calculated:
+             should they include padding and borders, or not.
+             Border-box:- The width and height properties (and min/max properties) includes content, padding and border*/
+* {
+    box-sizing: border-box;
+}
+/*Font-family:- The font-family property specifies the font for an element.
+Background:- The background property specifies the color of background of the whole body.*/
+body {
+    font-family: "Times New Roman";
+    background: turquoise;
+}
+/*Padding:-The padding properties are used to generate space around an element's content, inside of any defined borders.
+  Text-align:-The text-align property specifies the horizontal alignment of text in an element. JUSTIFY*/
+.header {
+    padding: 30px;
+    text-align: center;
+}
+/*Font-size:-The font-size property sets the size of a font.
+  Color:-The color property specifies the color of text.*/
+.header h1{
+    font-size: 100px;
+    color: whitesmoke;
+}
+/*Overflow:-The overflow property specifies what should happen if content overflows an element's box.
+Background-color:-The background-color property sets the background color of an element.
+Border-style:-The border-style property sets the style of an element's four borders.
+            This property can have from one to four values.
+Border-color:-The border-color property sets the color of an element's four borders.
+             This property can have from one to four values.
+Border-width:-The border-width property sets the width of an element's four borders.
+              This property can have from one to four values.*/
+.navi {
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+/*Float:-The float property is used for positioning and formatting content.
+  Display:-The display property specifies the display behavior (the type of rendering box) of an element.
+  Color:-The color property specifies the color of text.
+  Text-align:-The text-align property specifies the horizontal alignment of text in an element. JUSTIFY
+  Padding:-The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+  Text-decoration:-The text-decoration property specifies the decoration added to text.
+  Font-size:-The font-size property sets the size of a font.
+  Text-indent:-The text-indent property specifies the indentation of the first line in a text-block.*/
+.navi a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: justify-all;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-indent: 140px;
+    font-weight: bold;
+}
+/*Hover:-The :hover selector is used to select elements when you mouse over them.*/
+.navi a:hover {
+    background-color: aqua;
+    color: black;
+}
+/*Width:-The width property sets the width of an element.The width of an element does not include padding,
+         borders, or margins!*/
+.leftcolumn{
+    float: left;
+    width: 75%;
+}
+/*Padding:-The CSS padding properties are used to generate space around an element's content, inside of any defined borders.*/
+.rightcolumn{
+    float: right;
+    width: 25%;
+    padding: 20px;
+    background-color: turquoise;
+
+}
+/*Padding:-The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+  Margin-top:-The margin-top property sets the top margin of an element.*/
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card p{
+    font-size: x-large;
+}
+.card h2{
+    background-color: turquoise;
+    color: whitesmoke;
+    font-size: 50px;
+}
+/*Content:-The content property is used with the ::before and ::after pseudo-elements, to insert generated content.
+  Display:-The display property specifies the display behavior (the type of rendering box) of an element.
+  Clear:-The clear property specifies on which sides of an element floating elements are not allowed to float.*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Instagram*/
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-linkedin {
+    background: #125688;
+    color: white;
+}
+/*margin:-The CSS margin properties are used to create space around elements, outside of any defined borders.*/
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+/*Opacity:-The opacity property sets the opacity level for an element.*/
+.fa:hover {
+    opacity: 0.5;
+}
+
+
+dd,p::first-letter{
+    font-size: 200%;
+    color: black;
+}
+.peer{
+    background: turquoise;
+}
+
+/* RESUME PAGE CSS */
+
+
+
+.card h3{
+    font-size: 40px;
+}
+.courses h3{
+    font-size: 40px;
+    background-color: turquoise;
+    color: whitesmoke;
+}
+.courses h4{
+    font-size: 30px;
+    background-color: turquoise;
+    color: whitesmoke;
+}
+.courses p{
+    font-size:x-large;
+}
+.margin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list li{
+    font-size: 25px;
+}
+p{
+    font-size: 30px;
+}
+.hlist li a{
+    display: block;
+    color: black;
+    font-size: larger;
+}
+.hlist a:hover{
+    background-color: aqua;
+    color: black;
+}
+#lastdiv{
+    clear: both;
+}
+h4{
+    font-size: 40px;
+}
+h5{
+    font-size: 1.2em;
+}
+
+/* TABLES PAGE CSS*/
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px 100px;
+}
+tr:nth-child(even){
+    background-color: powderblue;
+}
+td,th{
+    border: 4px solid turquoise;
+    padding: 10px;
+}
+td{
+    text-align: left;
+}
+.card td,th{
+    font-size: x-large;
+}
+hr{
+    border: 2px solid whitesmoke;
+}
+.cone{
+    caption-side: top;
+}
+.ctwo{
+    caption-side: bottom;
+}
+.tfive{
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+}
+.valign1{
+    vertical-align: super;
+}
+.valign2{
+    vertical-align: sub;
+}
+.valign3{
+    vertical-align: 30px;
+}
+.valign4{
+    vertical-align: -30px;
+}
+.text-align1{
+    text-align: left;
+}
+.text-align2{
+    text-align: right;
+}
+.text-align3{
+    text-align: center;
+}
+.text-align4{
+    text-align: justify;
+}
+
+
+/* CONTACT PAGE CSS  */
+
+
+
+.card a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.card a:hover{
+    background-color: turquoise;
+    color:black;
+}
+
+
+/* LISTS PAGE CSS */
+
+th{
+    font-size: xx-large;
+}
+.captionlist{
+    font-size: 30px;
+}
+.orderedlist1{
+    list-style-type: numeric;
+}
+.orderedlist2{
+    list-style-type: lower-alpha;
+}
+.orderedlist3{
+    list-style-type: upper-alpha;
+}
+.orderedlist4{
+    list-style-type: lower-roman;
+}
+.orderedlist5{
+    list-style-type: upper-roman;
+}
+.unorderedlist1{
+    list-style-type: disc;
+}
+.unorderedlist2{
+    list-style-type: circle;
+}
+.unorderedlist3{
+    list-style-type: square;
+}
+.card dt{
+    font-size: 30px;
+    background-color: turquoise;
+    color: whitesmoke;
+}
+.card dd{
+    font-size: 20px;
+}
